@@ -10,7 +10,7 @@
   "scripts": {
     "start": "serve -s build",
     "heroku-postbuild": "npm run build",
-    "build": "postcss src/styles/tailwind.css -o src/styles/index.css && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test"
   },
   "dependencies": {
