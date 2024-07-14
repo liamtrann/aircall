@@ -1,0 +1,42 @@
+nav {
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .tab {
+    align-items: center;
+  }
+
+  .activity {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .active .nav-text {
+    padding-bottom: 5px;
+    border-bottom: 5px solid red;
+    transition: border-bottom 0.3s ease-in-out;
+  }
+  

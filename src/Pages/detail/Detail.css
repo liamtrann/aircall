@@ -1,0 +1,21 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.detail > div {
+    flex-grow: 1;
+}
+
+.detail .name {
+    font-size: large;
+}
+
+.detail .phone-number {
+    font-size: large;
+}

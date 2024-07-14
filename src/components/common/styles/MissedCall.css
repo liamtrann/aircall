@@ -1,0 +1,65 @@
+.call-detail {
+    justify-content: center;
+}
+.date-time-call {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.wrapped-item {
+    display: flex;
+    margin: 5px;
+    margin-top: 0;
+    border: 1px solid #cccccc;
+    border-radius: 8px; 
+    padding: 16px; 
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+}
+
+.wrapped-item:hover {
+    background-color: #ccccccbd;
+}
+
+.missed-call {
+    display: flex;
+    align-items: center;
+}
+
+.call-number {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: medium;
+    align-items: center;
+}
+.call-name {
+    color: gray;
+    font-size: small;
+}
+
+.number-calls {
+    width: 20px;
+    height: 15px;
+    background-color: red;
+    border-radius: 40%;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.date-call {
+    display: flex;
+    justify-content: space-between;
+    margin-right: none;
+    align-items: center;
+}
+
+.time {
+    margin-left: 2px;
+    border: 1px solid #cccccc;
+    padding: 2px;
+}
