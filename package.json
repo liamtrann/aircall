@@ -10,7 +10,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
-    "heroku-postbuild": "yarn install && yarn build"
+    "heroku-postbuild": "npm install && npm build"
   },
   "dependencies": {
     "moment": "^2.30.1",
