@@ -12,7 +12,7 @@
     "yarn": "1.22.18"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "heroku-postbuild": "yarn install && yarn build"
   },
