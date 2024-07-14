@@ -8,8 +8,11 @@
   "license": "",
   "private": false,
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "start": "serve -s build",
+    "heroku-postbuild": "npm run build",
+    "build": "postcss src/styles/tailwind.css -o src/styles/index.css && react-scripts build",
+    "test": "react-scripts test",
+    "jit": "cross-env TAILWIND_MODE=watch postcss src/styles/tailwind.css -o src/styles/index.css -w"
   },
   "dependencies": {
     "moment": "^2.30.1",
